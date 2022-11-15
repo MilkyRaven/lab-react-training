@@ -8,6 +8,10 @@ export default function Greetings(props) {
         saludo = "Bonjour";
     } else if (lang === "de"){
         saludo = "Halo";
+    } else if (lang === "es") {
+        saludo = "Hola";
+    } else if (lang === "en"){
+        saludo = "Hello";
     }
   return (
     <div className='userCard'>
