@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function IdCard(props) {
-    console.log(props)
+    //console.log(props)
     const {lastName, firstName, gender, height, birth, picture} = props
     const dateStr = String(birth).split(' ').slice(0,4).join(' ')
   return (

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function BoxColor(props) {
     const {r, b, g} = props;
-    console.log(r, b, g)
+    //console.log(r, b, g)
     const divStyle = {
         backgroundColor: `rgb(${r}, ${b}, ${g})`,
         width: 500,

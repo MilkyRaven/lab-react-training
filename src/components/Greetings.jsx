@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Greetings(props) {
-    console.log(props)
+    //console.log(props)
     const {lang, children} = props;
     let saludo;
     if (lang === "fr"){
