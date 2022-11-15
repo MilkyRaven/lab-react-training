@@ -19,3 +19,27 @@
   flex-flow: column;
   align-items: center;
 }
+.driverCard {
+  width: 700px;
+  height: 150px;
+  color:  white;
+  background-color: rgb(88, 96, 207);
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: center;
+}
+.driverCard > img {
+  width: 80px;
+  border-radius: 50%;
+}
+.driverText {
+  display: flex;
+  flex-flow: column;
+  margin: 10px;
+}
+.carLicense {
+  display: flex;
+  flex-flow: row nowrap;
+}

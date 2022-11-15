@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 export default function Rating(props) {
-    let rating = Math.floor(props.children);
+    let rating = Math.round(props.children);
     let starRating;
     if (rating === 0){
       starRating = <div>*Imagine this is an empty star*</div>
