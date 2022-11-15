@@ -31,8 +31,9 @@
   justify-content: center;
 }
 .driverCard > img {
-  width: 80px;
-  border-radius: 50%;
+  width: 100px;
+  clip-path: circle();
+  /* border-radius: 50%; */
 }
 .driverText {
   display: flex;
@@ -42,4 +43,24 @@
 .carLicense {
   display: flex;
   flex-flow: row nowrap;
+}
+.creditCard {
+  padding: 10px;
+  border-radius: 10px;
+}
+.creditCard > h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.details {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.details > p {
+  margin: 5px;
+}
+#card-logo{
+  margin: 10px;
+  width: 50px;
 }
